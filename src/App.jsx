@@ -2,6 +2,7 @@ import React from 'react';
 import NeuralHero from './components/NeuralHero';
 import KeyFeatures from './components/KeyFeatures';
 import HowItWorks from './components/HowItWorks';
+import ChatDemo from './components/ChatDemo';
 import Pricing from './components/Pricing';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <nav className="hidden sm:flex items-center gap-6 text-sm text-white/80">
             <a href="#features" className="hover:text-white">Features</a>
             <a href="#how" className="hover:text-white">How it works</a>
+            <a href="#demo" className="hover:text-white">Demo</a>
             <a href="#pricing" className="hover:text-white">Pricing</a>
           </nav>
           <div className="flex items-center gap-3">
@@ -29,6 +31,7 @@ function App() {
         <NeuralHero />
         <KeyFeatures />
         <HowItWorks />
+        <ChatDemo />
         <Pricing />
       </main>
 
